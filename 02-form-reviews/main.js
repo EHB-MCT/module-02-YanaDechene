@@ -19,11 +19,14 @@ let reviews = [
 ];
 
 // 2. Select DOM Elements
-
+let reviewsCon = document.querySelector("#reviews-container");
+let form = document.querySelector("#review-form");
 // 3. Render Function
 // This function should render the reviews array, based on the template in the HTML file.
 function renderReviews() {
     console.log("Render the reviews");
+    reviewsCon.innerHTML = " ";
+    reviews.forEach();
 }
 
 // 4. Initial Render
@@ -32,12 +35,14 @@ renderReviews();
 
 // 5. Handle Form Submission
 // 5.1 Stop the page from reloading!
-
+form.addEventListener("submit", function(){
+e.preventDefault();
 // 5.2 Create a new object from input values
 
 // 5.3 Add (push) the new object to our data array
 
 // 5.4 Re-render the list to show the new item
 
+});
 // Optional: Clear the form fields
 
