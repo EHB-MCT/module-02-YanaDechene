@@ -35,11 +35,12 @@ renderReviews();
 
 // 5. Handle Form Submission
 // 5.1 Stop the page from reloading!
-form.addEventListener("submit", function(){
-e.preventDefault();
+form.addEventListener("submit", function(e){
+    e.preventDefault();
 // 5.2 Create a new object from input values
 
 // 5.3 Add (push) the new object to our data array
+reviews.push()
 
 // 5.4 Re-render the list to show the new item
 
